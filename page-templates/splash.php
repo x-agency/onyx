@@ -57,7 +57,7 @@
 </footer>
 
 <script>
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function($) {
         $('#content .btn, .close').click(function() {
             $('#modal').toggleClass('open');
         })
