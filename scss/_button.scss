@@ -1,18 +1,19 @@
 // Main Theme Button Style
 
-.btn {
-    // background-color: ;
-    // color: ;
-    // padding: 15px 40px;
-    @include body-font;
-    // font-weight: ;
+#content .btn {
+    background-color: #424143;
+    color: #ececec;
     cursor: pointer;
-    transition: .3s ease all;
+    transition: all 0.6s;
+    display: block;
+    padding: 0.125em 1.75em;
+    font-family: 'Playfair Display';
+    font-size: calc(max(16px, min(2.5vw, 19px)));
+    border-radius: 7px;
 
     &:hover {
-        // background-color: ;
-        // color: ;
-        transition: .3s;
+        background-color: #ececec;
+        color: #424143;
     }
 }
 
