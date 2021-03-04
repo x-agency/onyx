@@ -76,7 +76,11 @@ footer .contact a {
     cursor: pointer;
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1199px) {
+    .content {
+        padding: 0;
+    }
+
     .ast-page-builder-template .site-content>.ast-container {
         min-height: 100vh;
         display: flex;
@@ -85,16 +89,6 @@ footer .contact a {
 
     #splash {
         flex-grow: 1;
-    }
-
-    footer {
-        margin-top: auto;
-    }
-}
-
-@media (max-width: 1199px) {
-    .content {
-        padding: 0;
     }
 }
 
