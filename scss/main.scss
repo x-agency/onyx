@@ -275,6 +275,7 @@ footer {
     .content {
         margin: 0 auto;
         width: calc(max(300px, min(90vw, 670px)));
+        min-height: unset;
     }
 
     .people {
