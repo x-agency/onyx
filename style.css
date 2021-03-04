@@ -9,3 +9,122 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: onyx
 Template: astra
 */
+
+.content .list {
+    justify-content: space-between;
+}
+
+a.simple-link {
+    font-size: calc(max(13px, min(2.5vw, 16px)));
+    letter-spacing: 0.025em;
+    line-height: 1.9em;
+    font-family: 'Bon Voyage';
+    color: #fafafa;
+    text-decoration: none;
+}
+
+footer .contact a {
+    margin: 0;
+}
+
+.frm_error_style {
+    background-color: #F2DEDE;
+    border: 1px solid #EBCCD1;
+    border-radius: 4px;
+    color: #B94A48;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+}
+
+.frm_message {
+    border: 1px solid #D6E9C6;
+    background-color: #DFF0D8;
+    color: #468847;
+    padding: 5px 25px;
+    font-size: 14px;
+    margin: 5px 0 15px;
+    text-align: center;
+}
+
+#modal .btn {
+    border: none;
+    box-shadow: none;
+}
+
+#modal .modal-inner .frm_forms label {
+    font-weight: normal;
+}
+
+#modal .modal-inner .frm_forms .form-field {
+    position: relative;
+}
+
+#modal .frm_form_field .frm_error {
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    text-align: left;
+    min-width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 1rem;
+}
+
+#modal .close {
+    cursor: pointer;
+}
+
+@media (max-width: 1399px) {
+    .ast-page-builder-template .site-content>.ast-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #splash {
+        flex-grow: 1;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+}
+
+@media (max-width: 1199px) {
+    .content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    #splash {
+        padding: 3rem 0;
+    }
+}
+
+#splash {
+    background: none;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#splash > img.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer > img {
+    margin-left: 5vw;
+}
+
+footer .contact {
+    max-width: 1920px;
+    margin: 0 auto;
+}

@@ -19,7 +19,7 @@ define( 'CHILD_THEME_ONYX_VERSION', '1.0.0' );
 function child_enqueue_styles() {
 
 	wp_enqueue_style( 'onyx-theme-css', get_stylesheet_directory_uri() . '/css/main.css', array('astra-theme-css'), CHILD_THEME_ONYX_VERSION, 'all' );
-
+	wp_enqueue_style( 'css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_ONYX_VERSION, 'all' );
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
