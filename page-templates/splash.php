@@ -13,7 +13,7 @@
     <img src="/wp-content/themes/onyx/img/texture-bg.jpg" class="bg">
     <div class="custom-border"></div>
     <div class="content">
-        <h2>COMING SOON</h2>
+        <!--h2>COMING SOON</h2-->
         <!--img src="/wp-content/themes/onyx/img/logo.png" alt="The Onyx Group: Management Services Organization" class="logo"-->
         <?php echo file_get_contents(__DIR__ . '/../img/onyx-logo.svg'); ?>
         <p>The Onyx Group, a joint venture between MUSC Health and a team of independent physicians, is a comprehensive healthcare management services organization (MSO) based in the Upstate of South Carolina. Our integrative approach combines scalable, turn-key business administration services with premium practice management consulting to provide a single-source solution for our clients.</p>
